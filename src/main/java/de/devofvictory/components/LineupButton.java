@@ -55,7 +55,7 @@ public class LineupButton extends JLabel {
 
     public Image getImage(int size) {
         String name = lineup.getAgent().getName().toLowerCase() + "_" + lineup.getAbility().toString().toLowerCase() + ".png";
-        return new ImageIcon("C:\\Users\\delfi\\Desktop\\lineup-helper\\images\\icons\\"+name).getImage().getScaledInstance(size, size, Image.SCALE_DEFAULT);
+        return new ImageIcon(".\\lineup-helper-assets\\images\\icons\\"+name).getImage().getScaledInstance(size, size, Image.SCALE_DEFAULT);
     }
 
 }

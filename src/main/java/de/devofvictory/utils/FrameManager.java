@@ -82,7 +82,7 @@ public class FrameManager {
         targetLabel.setVisible(true);
         int targetSize = 45;
         targetLabel.setBounds(lineup.getTargetPosX()-targetSize/2, lineup.getTargetPosY()-targetSize/2, targetSize, targetSize);
-        String path = "C:\\Users\\delfi\\Desktop\\lineup-helper\\images\\mollys\\" + lineup.getAgent().getName().toLowerCase() + "_" + lineup.getAbility().toString().toLowerCase() + ".png";
+        String path = ".\\lineup-helper-assets\\images\\mollys\\" + lineup.getAgent().getName().toLowerCase() + "_" + lineup.getAbility().toString().toLowerCase() + ".png";
         targetLabel.setIcon(new ImageIcon(new ImageIcon(path).getImage().getScaledInstance(targetSize, targetSize, Image.SCALE_DEFAULT)));
         mapPanel.getMapLabel().add(targetLabel, 0);
 
